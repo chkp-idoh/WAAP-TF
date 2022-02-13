@@ -1,6 +1,7 @@
 # victim company name 
 variable "victim_company" {
   type        = string
+  default     = "superf"
   description = "Victim Company used in Naming Convention"
 }
 
@@ -49,17 +50,20 @@ variable "vulnvm-name" {
 # username
 variable "username" {
   type        = string
+  default     = "dev"
   description = "Username"
 }
 
 # password
 variable "password" {
   type        = string
+  default     = "508090"
   description = "Password"
 }
 
 # token
 variable "token" {
   type        = string
+  default     = "45678vtmid"
   description = "WAAP Token"
 }
