@@ -64,5 +64,6 @@ variable "password" {
 # token
 variable "token" {
   type        = string
+  default     = "938108d1ce1b45b8b87e5215f2d3561a"
   description = "WAAP Token"
 }
