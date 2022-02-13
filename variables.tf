@@ -1,6 +1,7 @@
 # victim company name 
 variable "victim_company" {
   type        = string
+  default     = "Patrol GT"	
   description = "Victim Company used in Naming Convention"
 }
 
@@ -49,12 +50,14 @@ variable "vulnvm-name" {
 # username
 variable "username" {
   type        = string
+  default     = "mike"
   description = "Username"
 }
 
 # password
 variable "password" {
   type        = string
+  default     = "508090"
   description = "Password"
 }
 
