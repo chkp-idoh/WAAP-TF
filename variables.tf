@@ -1,8 +1,8 @@
 # victim company name 
 variable "victim_company" {
   type        = string
-  default     = "Patrol GT"	
   description = "Victim Company used in Naming Convention"
+   default    = "Patrol GT"	
 }
 
 # azure region
@@ -50,20 +50,19 @@ variable "vulnvm-name" {
 # username
 variable "username" {
   type        = string
-  default     = "mike"
   description = "Username"
+   default    = "devops1"
 }
 
 # password
 variable "password" {
   type        = string
-  default     = "508090"
   description = "Password"
+  default     = "508090!"
 }
 
 # token
 variable "token" {
   type        = string
-  default     = "938108d1ce1b45b8b87e5215f2d3561a"
   description = "WAAP Token"
 }
